@@ -6,4 +6,8 @@ describe('findX', function() {
         expect(findX([0])).toEqual(1)
     })
 
+    it('returns a minus value if arr is positive', function() {
+        expect(findX([5])).toEqual(-4)
+    })
+
 })
