@@ -1,0 +1,22 @@
+{
+  "name": "find_lowest_x",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tristanlangford/find_lowest_x.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tristanlangford/find_lowest_x/issues"
+  },
+  "homepage": "https://github.com/tristanlangford/find_lowest_x#readme",
+  "dependencies": {
+    "jest": "^26.4.2"
+  }
+}
