@@ -14,4 +14,8 @@ describe('findX', function() {
         expect(findX([-5])).toEqual(6)
     })
 
+    it('deals arrays of many positive elements', function() {
+        expect(findX([5, 7, 2, 4])).toEqual(-17)
+    })
+
 })
