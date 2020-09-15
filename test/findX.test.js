@@ -10,4 +10,8 @@ describe('findX', function() {
         expect(findX([5])).toEqual(-4)
     })
 
+    it('deals with single negative values', function() {
+        expect(findX([-5])).toEqual(6)
+    })
+
 })
