@@ -18,4 +18,8 @@ describe('findX', function() {
         expect(findX([5, 7, 2, 4])).toEqual(-17)
     })
 
+    it('deals arrays of many pos & neg elements', function() {
+        expect(findX([5, 7, -2, 4, -12])).toEqual(-13)
+    })
+
 })
